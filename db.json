@@ -2,8 +2,10 @@
     "users": [
         {
             "id": 1,
-            "name": "John Doe",
-            "email": "john@gmail.com"
+            "name": "薯餅",
+            "phone":"0912345678",
+            "email": "potato@gmail.com",
+            "password":"potato56"
         }
     ],
     "cats":[
@@ -272,6 +274,44 @@
         "img":"https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
         "addhId":["AH01"],
         "isSoldOut":false
+        }
+    ],
+    "orderhs":[
+        {
+        "id":"OH001",
+        "name":"薯餅",
+        "phone":"0912345678",
+        "email":"potato@gmail.com",
+        "comment":"不需要餐具",
+        "price":115,
+        "isPaid":false,
+        "isDone":false
+        }
+    ],
+    "orders":[
+        {
+        "id":"O0001",
+        "orderhId":"OH001",
+        "productId":"p051",
+        "qty":4,
+        "price":40,
+        "comment":"要加很多番茄醬"
+        },
+        {
+        "id":"O0002",
+        "orderhId":"OH001",
+        "productId":"p012",
+        "qty":2,
+        "price":60,
+        "comment":"不要玉米"
+        },
+        {
+        "id":"O0003",
+        "orderhId":"OH001",
+        "productId":"p021",
+        "qty":1,
+        "price":15,
+        "comment":""
         }
     ]
   }
