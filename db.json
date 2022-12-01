@@ -5,28 +5,32 @@
       "name": "薯餅",
       "phone": "0912345678",
       "email": "potato@gmail.com",
-      "password": "$2a$10$jS3CqICIZCshIok6HejVPeNdcZ8Ubo26KIAYWUm.FWJy9ZsqVW/BK"
+      "password": "$2a$10$jS3CqICIZCshIok6HejVPeNdcZ8Ubo26KIAYWUm.FWJy9ZsqVW/BK",
+      "role": "admin"
     },
     {
       "email": "cake@gmail.com",
       "password": "$2a$10$aEhd9bwxfiAniTzXAcDSPOyVCALOQTRECLMEfafQgIHr5.w1mvIqG",
       "phone": "0958783183",
       "name": "Cake",
-      "id": 2
+      "id": 2,
+      "role": "customer"
     },
     {
       "email": "ming@gmail.com",
       "password": "$2a$10$KMTUQqIalKYcg.pciR0AE.v8DCmFyROxoTLGaFAf//2yrra8fLV/e",
       "phone": "0911333555",
       "name": "小明",
-      "id": 3
+      "id": 3,
+      "role": "customer"
     },
     {
       "email": "anti@gmail.com",
-      "password": "$2a$10$PRyvJPASGEi9gNI0rRg.yOb5ginXG1LNaVA7mU5P0qK3LXm.wR6ke",
+      "password": "$2a$10$YIlqhRF4DGDZES04uXuYdOSEYmTRPCAN4Tnku/HQACkLS6VtBYuVm",
       "name": "早餐店阿姨",
       "phone": "0988168168",
-      "id": 4
+      "id": 4,
+      "role": "admin"
     }
   ],
   "cats": [
