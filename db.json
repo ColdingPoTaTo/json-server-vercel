@@ -31,6 +31,14 @@
       "phone": "0988168168",
       "id": 4,
       "role": "admin"
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "$2a$10$zSj3z/ROAlKcn645SJSx0eo3SJIXAmrjTjjekXfuKmjBVLTqX5Sjm",
+      "name": "杰倫",
+      "phone": "0926398045",
+      "role": "customer",
+      "id": 5
     }
   ],
   "cats": [
@@ -62,27 +70,28 @@
   "products": [
     {
       "id": "p051",
-      "catId": "c05",
       "name": "歡樂薯餅",
-      "price": 10,
-      "comment": "薯餅薯餅得第一",
+      "catId": "c05",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p051.jpg",
+      "comment": "薯餅薯餅得第一",
+      "isSoldOut": false,
+      "price": 10,
       "additionIds": [
-        "AH01"
-      ],
-      "isSoldOut": false
+        "AH01",
+        "AH04"
+      ]
     },
     {
       "id": "p012",
-      "catId": "c01",
       "name": "玉米蛋餅",
-      "price": 30,
-      "comment": "手工蛋餅皮+滿滿玉米",
+      "catId": "c01",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p012.jpg",
+      "comment": "手工蛋餅皮+滿滿玉米",
+      "isSoldOut": false,
+      "price": 30,
       "additionIds": [
         "AH01"
-      ],
-      "isSoldOut": false
+      ]
     },
     {
       "id": "p013",
@@ -260,7 +269,8 @@
       "comment": "全素草食餐",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p041.jpg",
       "additionIds": [
-        "AH01"
+        "AH01",
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -272,7 +282,8 @@
       "comment": "很多葉子搭配水煮蛋、舒肥雞胸肉",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p042.jpg",
       "additionIds": [
-        "AH01"
+        "AH01",
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -284,7 +295,7 @@
       "comment": "一份4塊",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p052.jpg",
       "additionIds": [
-        "AH02"
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -296,7 +307,7 @@
       "comment": "酥脆薯條，素食可用",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p053.jpg",
       "additionIds": [
-        "AH02"
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -308,7 +319,7 @@
       "comment": "國產熱狗",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p054.jpg",
       "additionIds": [
-        "AH02"
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -320,7 +331,7 @@
       "comment": "泰式月亮蝦餅搭配泰式酸辣醬",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p055.jpg",
       "additionIds": [
-        "AH02"
+        "AH04"
       ],
       "isSoldOut": false
     },
@@ -332,7 +343,8 @@
       "comment": "台灣特色，早餐店奶茶",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p061.jpg",
       "additionIds": [
-        "AH02","AH03"
+        "AH02",
+        "AH03"
       ],
       "isSoldOut": false
     },
@@ -344,7 +356,8 @@
       "comment": "台灣高山茶葉沖泡",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
       "additionIds": [
-        "AH02","AH03"
+        "AH02",
+        "AH03"
       ],
       "isSoldOut": false
     }
@@ -362,12 +375,12 @@
       "takeWay": "外帶",
       "isPaid": false,
       "isDone": false,
-      "additems":[],
       "details": [
         {
           "catId": "c05",
           "id": "p051",
           "name": "歡樂薯餅",
+          "additems": [],
           "price": 10,
           "qty": 4,
           "comment": "請幫我加很多番茄醬"
@@ -376,6 +389,7 @@
           "catId": "c06",
           "id": "p061",
           "name": "早餐店奶茶",
+          "additems": [],
           "price": 15,
           "qty": 1,
           "comment": ""
@@ -384,6 +398,7 @@
           "catId": "c02",
           "id": "p021",
           "name": "果醬吐司",
+          "additems": [],
           "price": 15,
           "qty": 1,
           "comment": ""
@@ -401,13 +416,13 @@
       "orderTime": "16:02:42",
       "takeWay": "外帶",
       "isPaid": false,
-      "isDone": false,
-      "additems":[],
+      "isDone": true,
       "details": [
         {
           "catId": "c03",
           "id": "p034",
           "name": "日式和牛堡",
+          "additems": [],
           "price": 100,
           "qty": 1,
           "comment": ""
@@ -416,14 +431,140 @@
           "catId": "c06",
           "id": "p062",
           "name": "經典紅茶",
+          "additems": [],
           "price": 15,
           "qty": 1,
           "comment": ""
         }
       ]
+    },
+    {
+      "id": "OD1670063897679",
+      "userId": 3,
+      "name": "小明",
+      "phone": "0911333555",
+      "comment": "謝謝老闆",
+      "price": 115,
+      "orderDate": "2022-12-03",
+      "orderTime": "18:38:17",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": false,
+      "details": [
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 15,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD021",
+            "AD034"
+          ]
+        },
+        {
+          "catId": "c01",
+          "id": "p012",
+          "name": "玉米蛋餅",
+          "price": 50,
+          "qty": 2,
+          "comment": "裝在一起",
+          "additems": [
+            "AD011",
+            "AD014"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OD1670067346035",
+      "userId": 5,
+      "name": "杰倫",
+      "phone": "0926398045",
+      "comment": "",
+      "price": 270,
+      "orderDate": "2022-12-03",
+      "orderTime": "19:35:46",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": false,
+      "details": [
+        {
+          "catId": "c05",
+          "id": "p051",
+          "name": "歡樂薯餅",
+          "price": 10,
+          "qty": 4,
+          "comment": "",
+          "additems": [
+            "AD041"
+          ]
+        },
+        {
+          "catId": "c04",
+          "id": "p042",
+          "name": "低脂蛋白沙拉",
+          "price": 80,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD011",
+            "AD012",
+            "AD044"
+          ]
+        },
+        {
+          "catId": "c01",
+          "id": "p013",
+          "name": "培根蛋餅",
+          "price": 40,
+          "qty": 2,
+          "comment": "",
+          "additems": [
+            "AD013"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p062",
+          "name": "經典紅茶",
+          "price": 15,
+          "qty": 2,
+          "comment": "",
+          "additems": [
+            "AD021",
+            "AD034"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 25,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD022",
+            "AD032"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 15,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD021",
+            "AD034"
+          ]
+        }
+      ]
     }
   ],
-  "additions":[
+  "additions": [
     {
       "id": "AH01",
       "name": "加料",
@@ -458,55 +599,94 @@
           "id": "AD016",
           "name": "不要醬料",
           "price": 0
-        },{
+        },
+        {
           "id": "AH017",
           "name": "不要胡椒",
           "price": 0
-        }]
-      },
-      {
-        "id":"AH02",
-        "name":"大小",
-        "isMulti":false,
-        "items":[
-          {
-            "id":"AD021",
-            "name":"M",
-            "price":0
-          },
-          {
-            "id":"AD022",
-            "name":"L",
-            "price":10
-          }
-        ]
-      },
-      {
-        "id":"AH03",
-        "name":"溫度",
-        "isMulti":false,
-        "items":[
-          {
-            "id":"AD031",
-            "name":"熱",
-            "price":0
-          },
-          {
-            "id":"AD032",
-            "name":"溫",
-            "price":0
-          },
-          {
-            "id":"AD033",
-            "name":"去冰",
-            "price":0
-          },
-          {
-            "id":"AD034",
-            "name":"冰",
-            "price":0
-          }
-        ]
-      }
+        }
+      ]
+    },
+    {
+      "id": "AH02",
+      "name": "大小",
+      "isMulti": false,
+      "items": [
+        {
+          "id": "AD021",
+          "name": "M",
+          "price": 0
+        },
+        {
+          "id": "AD022",
+          "name": "L",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "AH03",
+      "name": "溫度",
+      "isMulti": false,
+      "items": [
+        {
+          "id": "AD031",
+          "name": "熱",
+          "price": 0
+        },
+        {
+          "id": "AD032",
+          "name": "溫",
+          "price": 0
+        },
+        {
+          "id": "AD033",
+          "name": "去冰",
+          "price": 0
+        },
+        {
+          "id": "AD034",
+          "name": "冰",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "id": "AH04",
+      "name": "醬料",
+      "isMulti": true,
+      "items": [
+        {
+          "id": "AD041",
+          "name": "番茄醬",
+          "price": 0
+        },
+        {
+          "id": "AD042",
+          "name": "芥末醬",
+          "price": 0
+        },
+        {
+          "id": "AD043",
+          "name": "辣椒醬",
+          "price": 0
+        },
+        {
+          "id": "AD044",
+          "name": "凱薩醬",
+          "price": 0
+        },
+        {
+          "id": "AD045",
+          "name": "胡麻醬",
+          "price": 0
+        },
+        {
+          "id": "AD046",
+          "name": "糖醋醬",
+          "price": 0
+        }
+      ]
+    }
   ]
 }
