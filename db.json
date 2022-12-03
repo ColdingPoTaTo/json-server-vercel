@@ -420,5 +420,79 @@
         }
       ]
     }
+  ],
+  "additions":[
+    {
+      "id": "AH01",
+      "name": "加料",
+      "items": [
+        {
+          "id": "AH011",
+          "name": "加蛋",
+          "price": 10
+        },
+        {
+          "id": "AH012",
+          "name": "加培根",
+          "price": 15
+        },
+        {
+          "id": "AH013",
+          "name": "加蔥花",
+          "price": 5
+        },
+        {
+          "id": "AH014",
+          "name": "加番茄醬",
+          "price": 0
+        },
+        {
+          "id": "AH015",
+          "name": "加蔬菜",
+          "price": 10
+        }]
+      },
+      {
+        "id":"AH02",
+        "name":"大小",
+        "items":[
+          {
+            "id":"AH021",
+            "name":"L",
+            "price":10
+          },
+          {
+            "id":"AH022",
+            "name":"M",
+            "price":0
+          }
+        ]
+      },
+      {
+        "id":"AH03",
+        "name":"溫度",
+        "items":[
+          {
+            "id":"AH031",
+            "name":"熱",
+            "price":0
+          },
+          {
+            "id":"AH032",
+            "name":"溫",
+            "price":0
+          },
+          {
+            "id":"AH033",
+            "name":"去冰",
+            "price":0
+          },
+          {
+            "id":"AH034",
+            "name":"冰",
+            "price":0
+          }
+        ]
+      }
   ]
 }
