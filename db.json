@@ -284,7 +284,7 @@
       "comment": "一份4塊",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p052.jpg",
       "additionIds": [
-        "AH01"
+        "AH02"
       ],
       "isSoldOut": false
     },
@@ -296,7 +296,7 @@
       "comment": "酥脆薯條，素食可用",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p053.jpg",
       "additionIds": [
-        "AH01"
+        "AH02"
       ],
       "isSoldOut": false
     },
@@ -308,7 +308,7 @@
       "comment": "國產熱狗",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p054.jpg",
       "additionIds": [
-        "AH01"
+        "AH02"
       ],
       "isSoldOut": false
     },
@@ -320,7 +320,7 @@
       "comment": "泰式月亮蝦餅搭配泰式酸辣醬",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p055.jpg",
       "additionIds": [
-        "AH01"
+        "AH02"
       ],
       "isSoldOut": false
     },
@@ -332,7 +332,7 @@
       "comment": "台灣特色，早餐店奶茶",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p061.jpg",
       "additionIds": [
-        "AH01"
+        "AH02","AH03"
       ],
       "isSoldOut": false
     },
@@ -344,7 +344,7 @@
       "comment": "台灣高山茶葉沖泡",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
       "additionIds": [
-        "AH01"
+        "AH02","AH03"
       ],
       "isSoldOut": false
     }
@@ -444,13 +444,22 @@
         },
         {
           "id": "AH014",
-          "name": "加番茄醬",
-          "price": 0
+          "name": "加起司",
+          "price": 10
         },
         {
           "id": "AH015",
           "name": "加蔬菜",
           "price": 10
+        },
+        {
+          "id": "AH016",
+          "name": "不要醬料",
+          "price": 0
+        },{
+          "id": "AH017",
+          "name": "不要胡椒",
+          "price": 0
         }]
       },
       {
