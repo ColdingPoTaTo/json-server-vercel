@@ -67,7 +67,7 @@
       "price": 10,
       "comment": "薯餅薯餅得第一",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p051.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -79,7 +79,7 @@
       "price": 30,
       "comment": "手工蛋餅皮+滿滿玉米",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p012.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -91,7 +91,7 @@
       "price": 35,
       "comment": "手工蛋餅皮+雙份培根",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p013.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -103,7 +103,7 @@
       "price": 35,
       "comment": "手工蛋餅皮+整條火腿",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p014.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -115,7 +115,7 @@
       "price": 35,
       "comment": "手工蛋餅皮+一整罐鮪魚",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p015.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -127,7 +127,7 @@
       "price": 35,
       "comment": "手工蛋餅皮+爆漿起司",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -139,7 +139,7 @@
       "price": 15,
       "comment": "切邊烤土司+一公分厚塗果醬",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p021.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -151,7 +151,7 @@
       "price": 35,
       "comment": "切邊烤土司+一整罐鮪魚",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p022.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -163,7 +163,7 @@
       "price": 35,
       "comment": "切邊烤土司+雙份培根",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p023.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -175,7 +175,7 @@
       "price": 35,
       "comment": "切邊烤土司+厚切里肌豬排",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p024.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -187,7 +187,7 @@
       "price": 55,
       "comment": "就是豬排加生菜的漢堡啦",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p031.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -199,7 +199,7 @@
       "price": 45,
       "comment": "是誰住在深海的大鳳梨裡",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p032.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -211,7 +211,7 @@
       "price": 45,
       "comment": "鱈~魚~堡~",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p033.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -223,7 +223,7 @@
       "price": 100,
       "comment": "日本來的和牛，頂級享受",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p034.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -235,7 +235,7 @@
       "price": 40,
       "comment": "內含薯泥沙拉，美味蔬食",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p035.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": true
@@ -247,7 +247,7 @@
       "price": 55,
       "comment": "精選黃金右腿去骨雞腿排",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p036.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -259,7 +259,7 @@
       "price": 55,
       "comment": "全素草食餐",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p041.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -271,7 +271,7 @@
       "price": 55,
       "comment": "很多葉子搭配水煮蛋、舒肥雞胸肉",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p042.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -283,7 +283,7 @@
       "price": 30,
       "comment": "一份4塊",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p052.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -295,7 +295,7 @@
       "price": 30,
       "comment": "酥脆薯條，素食可用",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p053.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -307,7 +307,7 @@
       "price": 30,
       "comment": "國產熱狗",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p054.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -319,7 +319,7 @@
       "price": 30,
       "comment": "泰式月亮蝦餅搭配泰式酸辣醬",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p055.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -331,7 +331,7 @@
       "price": 15,
       "comment": "台灣特色，早餐店奶茶",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p061.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -343,7 +343,7 @@
       "price": 15,
       "comment": "台灣高山茶葉沖泡",
       "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
-      "addhId": [
+      "additionIds": [
         "AH01"
       ],
       "isSoldOut": false
@@ -425,6 +425,7 @@
     {
       "id": "AH01",
       "name": "加料",
+      "isMulti": true,
       "items": [
         {
           "id": "AH011",
@@ -455,6 +456,7 @@
       {
         "id":"AH02",
         "name":"大小",
+        "isMulti":false,
         "items":[
           {
             "id":"AH021",
@@ -471,6 +473,7 @@
       {
         "id":"AH03",
         "name":"溫度",
+        "isMulti":false,
         "items":[
           {
             "id":"AH031",
