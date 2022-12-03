@@ -362,6 +362,7 @@
       "takeWay": "外帶",
       "isPaid": false,
       "isDone": false,
+      "additems":[],
       "details": [
         {
           "catId": "c05",
@@ -401,6 +402,7 @@
       "takeWay": "外帶",
       "isPaid": false,
       "isDone": false,
+      "additems":[],
       "details": [
         {
           "catId": "c03",
@@ -428,32 +430,32 @@
       "isMulti": true,
       "items": [
         {
-          "id": "AH011",
+          "id": "AD011",
           "name": "加蛋",
           "price": 10
         },
         {
-          "id": "AH012",
+          "id": "AD012",
           "name": "加培根",
           "price": 15
         },
         {
-          "id": "AH013",
+          "id": "AD013",
           "name": "加蔥花",
           "price": 5
         },
         {
-          "id": "AH014",
+          "id": "AD014",
           "name": "加起司",
           "price": 10
         },
         {
-          "id": "AH015",
+          "id": "AD015",
           "name": "加蔬菜",
           "price": 10
         },
         {
-          "id": "AH016",
+          "id": "AD016",
           "name": "不要醬料",
           "price": 0
         },{
@@ -468,14 +470,14 @@
         "isMulti":false,
         "items":[
           {
-            "id":"AH021",
-            "name":"L",
-            "price":10
-          },
-          {
-            "id":"AH022",
+            "id":"AD021",
             "name":"M",
             "price":0
+          },
+          {
+            "id":"AD022",
+            "name":"L",
+            "price":10
           }
         ]
       },
@@ -485,22 +487,22 @@
         "isMulti":false,
         "items":[
           {
-            "id":"AH031",
+            "id":"AD031",
             "name":"熱",
             "price":0
           },
           {
-            "id":"AH032",
+            "id":"AD032",
             "name":"溫",
             "price":0
           },
           {
-            "id":"AH033",
+            "id":"AD033",
             "name":"去冰",
             "price":0
           },
           {
-            "id":"AH034",
+            "id":"AD034",
             "name":"冰",
             "price":0
           }
