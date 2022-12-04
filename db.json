@@ -39,6 +39,38 @@
       "phone": "0926398045",
       "role": "customer",
       "id": 5
+    },
+    {
+      "email": "karen@gmail.com",
+      "password": "$2a$10$qc6VHNMV76aeUyyJbwBUhOMdvPX2wG8JxWGlDpfRTNteLJRlQ0ZJq",
+      "name": "楓K",
+      "phone": "0911321123",
+      "role": "customer",
+      "id": 6
+    },
+    {
+      "email": "squidward@gmail.com",
+      "password": "$2a$10$C.EcPrnnvmfzY7LHx9kJbexavkpuIHp/Q0ty5ZZX3MsR63wN5r0r6",
+      "name": "章魚哥",
+      "phone": "0911123123",
+      "role": "customer",
+      "id": 7
+    },
+    {
+      "email": "sandy@gmail.com",
+      "password": "$2a$10$nsRszuecl18ur/nyZcJ0yuhhfTpWLP2XoOja0lFmdDuyRAIbImqUO",
+      "name": "珊迪",
+      "phone": "0912123222",
+      "role": "customer",
+      "id": 8
+    },
+    {
+      "email": "patrick@gmail.com",
+      "password": "$2a$10$jiw782QuW805do5pbsIc8.GtngVM5q2cnYKRpJgeLzkU/VY5j1g2y",
+      "name": "派大星",
+      "phone": "0911123333",
+      "role": "customer",
+      "id": 9
     }
   ],
   "cats": [
@@ -488,7 +520,7 @@
       "orderTime": "19:35:46",
       "takeWay": "外帶",
       "isPaid": false,
-      "isDone": false,
+      "isDone": true,
       "details": [
         {
           "catId": "c05",
@@ -558,6 +590,209 @@
           "comment": "",
           "additems": [
             "AD021",
+            "AD034"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OD1670121729628",
+      "userId": 6,
+      "name": "楓K",
+      "phone": "0911321123",
+      "comment": "",
+      "price": 155,
+      "orderDate": "2022-12-04",
+      "orderTime": "10:42:09",
+      "takeWay": "內用",
+      "isPaid": false,
+      "isDone": true,
+      "details": [
+        {
+          "catId": "c03",
+          "id": "p034",
+          "name": "日式和牛堡",
+          "price": 120,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD011",
+            "AD014"
+          ]
+        },
+        {
+          "catId": "c05",
+          "id": "p051",
+          "name": "歡樂薯餅",
+          "price": 10,
+          "qty": 2,
+          "comment": "",
+          "additems": [
+            "AD041"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 15,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD021",
+            "AD032"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OD1670122266392",
+      "userId": 7,
+      "name": "章魚哥",
+      "phone": "0911123123",
+      "comment": "",
+      "price": 70,
+      "orderDate": "2022-12-04",
+      "orderTime": "10:51:06",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": true,
+      "details": [
+        {
+          "catId": "c03",
+          "id": "p032",
+          "name": "美味蟹堡",
+          "price": 55,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD015"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p062",
+          "name": "經典紅茶",
+          "price": 15,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OD1670122368461",
+      "userId": 8,
+      "name": "珊迪",
+      "phone": "0912123222",
+      "comment": "",
+      "price": 140,
+      "orderDate": "2022-12-04",
+      "orderTime": "10:52:48",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": true,
+      "details": [
+        {
+          "catId": "c01",
+          "id": "p013",
+          "name": "培根蛋餅",
+          "price": 35,
+          "qty": 1,
+          "comment": "",
+          "additems": []
+        },
+        {
+          "catId": "c04",
+          "id": "p042",
+          "name": "低脂蛋白沙拉",
+          "price": 80,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD011",
+            "AD012",
+            "AD044"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 25,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD022",
+            "AD034"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OD1670122492366",
+      "userId": 9,
+      "name": "派大星",
+      "phone": "0911123333",
+      "comment": "",
+      "price": 215,
+      "orderDate": "2022-12-04",
+      "orderTime": "10:54:52",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": false,
+      "details": [
+        {
+          "catId": "c05",
+          "id": "p052",
+          "name": "雞塊",
+          "price": 30,
+          "qty": 1,
+          "comment": "",
+          "additems": []
+        },
+        {
+          "catId": "c05",
+          "id": "p053",
+          "name": "薯條",
+          "price": 30,
+          "qty": 2,
+          "comment": "",
+          "additems": []
+        },
+        {
+          "catId": "c05",
+          "id": "p051",
+          "name": "歡樂薯餅",
+          "price": 10,
+          "qty": 4,
+          "comment": "",
+          "additems": [
+            "AD041"
+          ]
+        },
+        {
+          "catId": "c05",
+          "id": "p054",
+          "name": "熱狗",
+          "price": 30,
+          "qty": 2,
+          "comment": "",
+          "additems": [
+            "AD041"
+          ]
+        },
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 25,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD022",
             "AD034"
           ]
         }
