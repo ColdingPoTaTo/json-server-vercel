@@ -71,6 +71,14 @@
       "phone": "0911123333",
       "role": "customer",
       "id": 9
+    },
+    {
+      "email": "A3@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "A3",
+      "phone": "0988168168",
+      "role": "insider",
+      "id": 10
     }
   ],
   "cats": [
